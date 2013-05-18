@@ -4,22 +4,14 @@
     android:layout_height="match_parent"
     tools:context=".GameActivity" >
 
-    <ImageView
-        android:id="@+id/gameImageTest"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/background" />
-
-    <TextView
-        android:id="@+id/LevelTest"
+    <TableLayout
+        android:id="@+id/TableLayoutForGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/gameImageTest"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="14dp"
-        android:text="@string/Next" />
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="61dp" >
+    </TableLayout>
 
 </RelativeLayout>
