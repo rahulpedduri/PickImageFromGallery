@@ -26,6 +26,14 @@
             android:name="com.trnkarthik.pickimagefromgallery.WelcomeActivity"
             android:label="@string/title_activity_welcome" >
         </activity>
+        <activity
+            android:name="com.trnkarthik.pickimagefromgallery.LevelSelectorActivity"
+            android:label="@string/title_activity_level_selector" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.pickimagefromgallery.GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
     </application>
 
 </manifest>

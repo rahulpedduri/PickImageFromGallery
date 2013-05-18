@@ -18,30 +18,44 @@ public final class R {
         public static final int rounded_corners_white=0x7f020004;
     }
     public static final class id {
-        public static final int gallerySelectButton=0x7f070000;
-        public static final int imageView1=0x7f070001;
-        public static final int menu_settings=0x7f070006;
-        public static final int sphinxLogoScreenApp=0x7f070005;
-        public static final int sphinxLogoScreenTagLine=0x7f070003;
-        public static final int sphinxLogoScreenTitle=0x7f070004;
-        public static final int splashScreenLayout=0x7f070002;
+        public static final int button1=0x7f070004;
+        public static final int gallerySelectButton=0x7f070006;
+        public static final int imageView1=0x7f070005;
+        public static final int menu_settings=0x7f07000b;
+        public static final int radio1=0x7f070001;
+        public static final int radio2=0x7f070002;
+        public static final int radioGroup1=0x7f070000;
+        public static final int showCaseImage=0x7f070003;
+        public static final int sphinxLogoScreenApp=0x7f07000a;
+        public static final int sphinxLogoScreenTagLine=0x7f070008;
+        public static final int sphinxLogoScreenTitle=0x7f070009;
+        public static final int splashScreenLayout=0x7f070007;
     }
     public static final class layout {
-        public static final int activity_welcome=0x7f030000;
-        public static final int activity_welcome_splash=0x7f030001;
+        public static final int activity_game=0x7f030000;
+        public static final int activity_level_selector=0x7f030001;
+        public static final int activity_welcome=0x7f030002;
+        public static final int activity_welcome_splash=0x7f030003;
     }
     public static final class menu {
-        public static final int activity_welcome=0x7f060000;
-        public static final int activity_welcome_splash=0x7f060001;
+        public static final int activity_game=0x7f060000;
+        public static final int activity_level_selector=0x7f060001;
+        public static final int activity_welcome=0x7f060002;
+        public static final int activity_welcome_splash=0x7f060003;
     }
     public static final class string {
         public static final int GallerySelect=0x7f040007;
+        public static final int Level3by3=0x7f040009;
+        public static final int Level4by4=0x7f04000a;
+        public static final int Next=0x7f04000b;
         public static final int app_name=0x7f040000;
         public static final int applications=0x7f040004;
         public static final int hello_world=0x7f040001;
         public static final int menu_settings=0x7f040002;
         public static final int sphinx=0x7f040003;
         public static final int sphinxTagLine=0x7f040005;
+        public static final int title_activity_game=0x7f04000c;
+        public static final int title_activity_level_selector=0x7f040008;
         public static final int title_activity_welcome=0x7f040006;
     }
     public static final class style {

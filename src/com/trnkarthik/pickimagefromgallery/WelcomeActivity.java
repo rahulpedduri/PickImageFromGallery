@@ -17,6 +17,7 @@ import android.widget.ImageView;
 public class WelcomeActivity extends Activity {
 
 	private static final int SELECT_PHOTO = 100;
+	public Bitmap yourSelectedImage;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,20 @@ public class WelcomeActivity extends Activity {
 				startActivityForResult(photoPickerIntent, SELECT_PHOTO);    
 
 				
+			}
+		});
+		
+		
+		Button next = (Button)findViewById(R.id.button1);
+		next.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				Intent from1 = new Intent(WelcomeActivity.this, LevelSelectorActivity.class);
+				from1.putExtra("Image", yourSelectedImage);
+				startActivity(from1);
 			}
 		});
 		
@@ -61,9 +76,10 @@ public class WelcomeActivity extends Activity {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-	            Bitmap yourSelectedImage = BitmapFactory.decodeStream(imageStream);
+	            yourSelectedImage = BitmapFactory.decodeStream(imageStream);
 	            ImageView image = (ImageView) findViewById(R.id.imageView1);
 	            image.setImageBitmap(yourSelectedImage);
+	            
 	        }
 	    }
 	}

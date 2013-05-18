@@ -13,14 +13,21 @@
         android:layout_marginTop="18dp"
         android:text="@string/GallerySelect" />
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/gallerySelectButton"
-        android:layout_below="@+id/gallerySelectButton"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="112dp"
-        android:src="@drawable/custom_button" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/gallerySelectButton"
+        android:layout_marginBottom="17dp"
+        android:text="@string/Next" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/background" />
 
 </RelativeLayout>
