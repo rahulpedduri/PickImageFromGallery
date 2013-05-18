@@ -6,11 +6,11 @@
     <string name="menu_settings">Settings</string>
     <string name="sphinx">Sphinx</string>
     <string name="applications">Applications</string>
-    <string name="sphinxTagLine">where innovation is inevitable...</string>
+    <string name="sphinxTagLine">where innovation is inevitable</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
     <string name="GallerySelect">Select Image From Gallery</string>
     <string name="title_activity_level_selector">LevelSelectorActivity</string>
-    <string name="Level3by3">Play 3 * 3 level</string>
+    <string name="Level3by3">Play 3*3 level</string>
     <string name="Level4by4">Play 4*4 level</string>
     <string name="Next">Next</string>
     <string name="title_activity_game">GameActivity</string>
