@@ -8,5 +8,6 @@
     <string name="applications">Applications</string>
     <string name="sphinxTagLine">where innovation is inevitable...</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="GallerySelect">Select Image From Gallery</string>
 
 </resources>
